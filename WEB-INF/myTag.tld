@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>  
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>CharCountCustomTag</short-name>
+	<uri>myTagFile</uri>
+	
+	<tag>
+		<name>count</name>
+		<tag-class>com.example.myTagHandlerClasses.SubStringOccuranceTagHandlerClass</tag-class>
+		<description>This tag is used count and return the occurrence of "is, the, a and subString" in a string</description>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>subStringOccurance</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
+
+
